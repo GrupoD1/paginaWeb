@@ -1,0 +1,122 @@
+Index.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo online</title>
+    <link  rel = "stylesheet" href=" estilo.css">
+    <link  rel = "stylesheet" href=" fonts/style.css">
+
+
+
+</head>
+<body>
+    <header>
+        <div class = "titulo">CATÁLOGO ONLINE</div>
+        <div class = "header-top">
+            <div class = "navegacion">
+                <span class = "icon-search"></span>
+                <input type="search" placeholder = "Buscar..." >
+
+            </div>
+        </div>
+    </header>
+
+
+
+   <button id = "admin">
+       <span class = "icon-user-tie"></span>
+       Administrador
+   </button>
+
+    <button id = "agregar"  onclick="location.href = 'productoNuevo.html';">
+        <span class = "icon-plus"></span>
+        Agregar productos
+
+
+    </button>
+
+    <button id = "derecha">
+        <span class = "icon-arrow-right2"></span>
+    </button>
+
+    <button id = "izquierda">
+        <span class = "icon-arrow-left2"></span>
+    </button>
+
+
+    <div class=" contenedor">
+        <script type="text/javascript">
+            function popup(url,ancho,alto) {
+                var posicion_x;
+                var posicion_y;
+                posicion_x=(screen.width/2)-(ancho/2);
+                posicion_y=(screen.height/2)-(alto/2);
+                window.open(url, "google.es", "width="+ancho+",height="+alto+",menubar=0,toolbar=0,directories=0,scrollbars=no,resizable=no,left="+posicion_x+",top="+posicion_y+"");
+            }
+        </script>
+
+        <table border="2px"> <!-- Lo cambiaremos por CSS -->
+            <caption></caption>
+            <tr>
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f1.jpg" width="150" height="160" alt="IM1" />
+                    </a>
+                </td>
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f2.jpg" width="150" height="160" alt="IM2" />
+                    </a>
+                </td>
+
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f3.jpg" width="150" height="160" alt="IM3"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f4.jpg" width="150" height="160" alt="IM4"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f6.jpg" width="150" height="160" alt="IM5"/>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f1.jpg" width="150" height="160" alt="IM6" />
+                    </a>
+                </td>
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+
+                        <img src="C:\Users\Usuario\Desktop\fotos\f2.jpg" width="150" height="160" alt="IM7" />
+                    </a>
+                </td>
+
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f3.jpg" width="150" height="160" alt="IM8"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f4.jpg" width="150" height="160" alt="IM9"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="javascript:popup('popup.html',400,300)">
+                        <img src="C:\Users\Usuario\Desktop\fotos\f6.jpg" width="150" height="160" alt="IM10"/>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
