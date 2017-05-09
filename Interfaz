@@ -120,3 +120,279 @@ Index.html
 
 </body>
 </html>
+
+
+productoNuevo.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Producto</title>
+    <link  rel = "stylesheet" href=" estilo.css">
+
+
+    <div class = "titulo">CATÁLOGO ONLINE</div>
+</head>
+
+
+<body>
+<form action="aqui url de la base de datos" method="get">
+    Título: <input type="text" name="titulo"><br >
+    Descripción: <input type="text" name="descrip" id="descrip"><br />
+    Precio: <input type="text" name="Precio"><br />
+    Cantidad:<input type="text" name="Cantidad"><br />
+
+
+    <button id = "ingresar">
+       Ingresar
+    </button>
+    <button id = "borrarProducto">
+        Borrar Producto
+    </button>
+
+</form>
+
+<form action="aqui url de la base de datos" method="post" accept="image/jpg">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    Ingrese la foto: <input type="file" name="foto" id = "foto"><br />
+
+    <button id="guardarFoto">
+        Guardar foto
+    </button>
+
+</form>
+
+</body>
+</html>
+
+estilo.css
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+#admin
+{
+    background:#ffffff;
+    color: #000000;
+    display:inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+    position:absolute;
+    left:25%;
+    bottom: 75%;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+}
+
+#agregar
+{
+    background:#ffffff;
+    color: #000000;
+    display:inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+    position:absolute;
+    left:55%;
+    bottom: 75%;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+}
+
+#derecha
+{
+    background:#ffffff;
+    color: #000000;
+    display:inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 30px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+    position:absolute;
+    left:85%;
+    bottom: 5%;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+}
+#izquierda
+{
+    background:#ffffff;
+    color: #000000;
+    display:inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 30px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+    position:absolute;
+    left:80%;
+    bottom: 5%;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+
+}
+
+body
+{
+    background:beige;
+}
+
+form
+{
+    width: 200px;
+    height: 40px;
+    margin: 100px auto 0;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+
+}
+.titulo
+{
+    color: darkgoldenrod;
+    width: 100%;
+    background: rgba(9, 2, 4, 0.91);
+    padding: 10px;
+    padding-right: 35px;
+    border:none;
+    text-align: center;
+}
+
+
+#ingresar
+{
+    background:#ffffff;
+    color: #000000;
+    display:inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 60px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+    position:static;
+    left:35%;
+    top: 70%;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+}
+.header-top
+{
+ width: 100%;
+ background: rgba(192, 150, 50, 0.76);
+}
+
+.navegacion {
+    width: 90%;
+    max-width: 1000px ;
+    margin:auto;
+    padding:12px;
+
+}
+
+input [type = "search"]
+{
+    padding: 10px;
+    padding-right: 35px;
+    border:none;
+}
+
+#borrarProducto
+{
+    background:#ffffff;
+    color: #000000;
+    display:inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 80px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+    position: absolute;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+}
+
+#descrip
+{
+    width: 400px;
+    height:250px;
+}
+
+#foto
+{
+    position: absolute;
+   left: 50%;
+}
+
+
+#GuardarFoto
+{
+    position:absolute;
+    height: 20px;
+}
+
+.contenedor
+{
+    position:absolute;
+    left:20%;
+    bottom: 20%;
+}
+
+
+
+
+
