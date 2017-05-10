@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Yanone Kaffeesatz', sans-serif;
 
 .section__titulo{
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     color: #FBA919;
 }
 .contenedor{
@@ -80,7 +80,8 @@ h1,h2,h3,h4,h5,h6{font-family: 'Yanone Kaffeesatz', sans-serif;
 .banner{
     margin-top: -60px;
     position: relative;
-    z-index: -1000
+    z-index: -1000;
+    margin-bottom: 30px;
 }
 .banner .contenedor{
     position: absolute;
@@ -99,8 +100,8 @@ h1,h2,h3,h4,h5,h6{font-family: 'Yanone Kaffeesatz', sans-serif;
 .info__columna{
     background: #FBA919;
     color: #fff;
-    padding: 15px;
-    margin-bottom: 30px;
+    padding: 5px;
+    margin-top: 30px;
 }
 /*Estilos de cursos*/
 .cursos__columna{
@@ -196,6 +197,17 @@ h1,h2,h3,h4,h5,h6{font-family: 'Yanone Kaffeesatz', sans-serif;
     .cursos__titulo{
         font-size: 40px;
     }
+    .info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: -120px;
+    }
+      .info__columna{
+        padding: 30px;
+        width: 90%;
+        justify-content: space-between;
+    }
 }
 @media(min-width:1024px)
 {
@@ -231,6 +243,9 @@ h1,h2,h3,h4,h5,h6{font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 25px; 
     }
     .info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         margin-top: -120px;
     }
     .info__titulo{
@@ -239,6 +254,8 @@ h1,h2,h3,h4,h5,h6{font-family: 'Yanone Kaffeesatz', sans-serif;
     }
     .info__columna{
         padding: 30px;
+        width: 90%;
+        justify-content: space-between;
     }
     .cursos__descripcion{
         padding: 20px;
