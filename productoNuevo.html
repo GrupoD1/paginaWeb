@@ -16,7 +16,17 @@
             var pre= document.getElementById("precio").value;
             var can= document.getElementById("cantidad").value;
             var query = connection.query('INSERT INTO producto(nombre, descripcion, precio, cantidad) VALUES(?, ?, ?, ?)',
-                [tit, des, pre, can ]
+                [tit, des, pre, can ]                         , function(error){
+    if(error){
+        throw error;
+    }else{
+        function c ()
+        {
+            valor = "Echo";
+            alert (valor);
+        }
+    }
+}
             )
 
         }
@@ -33,7 +43,7 @@
     Cantidad:<input type="text" name="Cantidad" id="cantidad"><br />
 
 
-    <button id = "ingresar" onclick="guardar()">
+    <button id = "ingresar" onclick="guardar(), c()"> 
         Ingresar
     </button>
     <button id = "borrarProducto">
