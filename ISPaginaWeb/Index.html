@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo online</title>
+    <link  rel = "stylesheet" href=" CSS/estilos.css">
+    <link  rel = "stylesheet" href=" fonts/style.css">
+
+
+
+</head>
+<body>
+    <header>
+        <div class = "titulo">CATÁLOGO ONLINE</div>
+        <div class = "header-top">
+            <div class = "navegacion">
+                <span class = "icon-search"></span>
+                <input type="search" placeholder = "Buscar..." >
+                <button id="btn_buscar" onclick="">
+                <span></span>Buscar
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
+   <button id = "admin">
+       <span class = "icon-user-tie"></span>
+       Administrador
+   </button>
+
+    <button id = "agregar"  onclick="location.href = 'productoNuevo.html';">
+        <span class = "icon-plus"></span>
+        Agregar productos
+
+
+    </button>
+
+    <button id = "derecha">
+        <span class = "icon-arrow-right2"></span>
+    </button>
+
+    <button id = "izquierda">
+        <span class = "icon-arrow-left2"></span>
+    </button>
+
+
+    <div class=" contenedor">
+      
+        <table border="2px"> <!-- Lo cambiaremos por CSS -->
+            <caption></caption>
+            <tr>
+                <td>
+                   <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <img src="IMG/img1.jpg" width="150" height="160" alt="IM1"
+                     /> 
+                </td>
+                <td>
+                    <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+                        <img src="IMG/img2.jpeg" width="150" height="160" alt="IM2" />
+                    </a>
+                </td>
+
+                <td>
+                   <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+                        <img src="IMG/img3.jpg" width="150" height="160" alt="IM3"/>
+                    </a>
+                </td>
+                <td>
+                   <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+                        <img src="IMG/img4.jpeg" width="150" height="160" alt="IM4"/>
+                    </a>
+                </td>
+                <td>
+                   <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+                        <img src="IMG/img5.jpg" width="150" height="160" alt="IM5"/>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+                        <img src="IMG/img6.jpg" width="150" height="160" alt="IM6" />
+                    </a>
+                </td>
+                <td>
+                  <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+
+                        <img src="IMG/img7.jpeg" width="150" height="160" alt="IM7" />
+                    </a>
+                </td>
+
+                <td>
+                   <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+                        <img src="IMG/img8.jpg" width="150" height="160" alt="IM8"/>
+                    </a>
+                </td>
+                <td>
+                  <h1 class="nombreProd">Nombre producto
+                   </h1>
+                   
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+                        <img src="IMG/img9.jpg" width="150" height="160" alt="IM9"/>
+                    </a>
+                </td>
+                <td>
+                   <h1 class="nombreProd">Nombre producto
+                   </h1>
+                    <a class="img" href="javascript:popup('popup.html',400,300)">
+                        <img src="IMG/img10.jpeg" width="150" height="160" alt="IM10"/>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+  <script type="text/javascript">
+            function popup(url,ancho,alto) {
+                var posicion_x;
+                var posicion_y;
+                posicion_x=(screen.width/2)-(ancho/2);
+                posicion_y=(screen.height/2)-(alto/2);
+                window.open(url, "google.es", "width="+ancho+",height="+alto+",menubar=0,toolbar=0,directories=0,scrollbars=no,resizable=no,left="+posicion_x+",top="+posicion_y+"");
+            }
+        </script>
+        <script src="JS/conexion.js"></script>
+</body>
+</html>
