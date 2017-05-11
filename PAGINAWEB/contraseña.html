@@ -1,12 +1,24 @@
-<script>
-    function usrpas(){
-        if (document.form1.txt.value=="admin" && document.form1.num.value=="1234"){window.location="nuevoProducto.html"}
-        else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
-    }
-    document.oncontextmenu=new Function("return false");
-</script>
-<form name="form1">
-    <input type="text" name="txt"> Usuario <br>
-    <input type="text" name="num"> Contraseña <br>
-    <input type="button" value="ir a.." onclick="usrpas()">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrador</title>
+    <link  rel = "stylesheet" href=" estilo.css">
+
+    <script>
+        function usrpas(){
+            if (document.form1.txt.value=="admin" && document.form1.num.value=="1234"){window.location="nuevoProducto.html"}
+            else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+        }
+        document.oncontextmenu=new Function("return false");
+    </script>
+    <form name="form1">
+        <input type="text" name="txt"> Usuario <br>
+        <input type="text" name="num"> Contraseña <br>
+        <br />
+
+        <a class="boton" onclick="usrpas()" target="_blank" style="">Aceptar</a>
+
+
+    </form>
+
