@@ -1,0 +1,12 @@
+<script>
+    function usrpas(){
+        if (document.form1.txt.value=="admin" && document.form1.num.value=="1234"){window.location="nuevoProducto.html"}
+        else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+    }
+    document.oncontextmenu=new Function("return false");
+</script>
+<form name="form1">
+    <input type="text" name="txt"> Usuario <br>
+    <input type="text" name="num"> Contraseña <br>
+    <input type="button" value="ir a.." onclick="usrpas()">
+</form>

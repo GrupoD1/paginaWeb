@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Producto</title>
+    <link  rel = "stylesheet" href=" estilo.css">
+
+
+    <div class = "titulo">CATÁLOGO ONLINE</div>
+
+    <script>
+        function guardar ()
+        {
+            localStorage.setItem("Titulo", document.getElementById("titulo").value);
+            localStorage.setItem("Descripcion", document.getElementById("descrip").value);
+            localStorage.setItem("Descripcion", document.getElementById("precio").value);
+            localStorage.setItem("Descripcion", document.getElementById("cantidad").value);
+        }
+
+    </script>
+</head>
+
+
+<body>
+<form action="aqui url de la base de datos" method="get">
+    Título: <input type="text" name="titulo" id="titulo"><br >
+    Descripción: <input type="text" name="descrip" id="descrip"><br />
+    Precio: <input type="text" name="Precio" id="precio"><br />
+    Cantidad:<input type="text" name="Cantidad" id="cantidad"><br />
+
+
+    <button id = "ingresar" onclick="guardar()">
+        Ingresar
+    </button>
+    <button id = "borrarProducto">
+        Borrar Producto
+    </button>
+
+</form>
+
+<form action="productoNuevo.html" method="post" accept="image/jpg">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    Ingrese la foto: <input type="file" name="foto" id = "foto"><br />
+
+    <button id="guardarFoto">
+        Guardar foto
+    </button>
+
+</form>
+
+</body>
+</html>
+
