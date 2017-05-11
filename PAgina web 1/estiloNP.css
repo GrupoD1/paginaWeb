@@ -1,0 +1,115 @@
+body
+{
+    background:beige;
+}
+
+form
+{
+    width: 200px;
+    height: 40px;
+    margin: 100px auto 0;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+
+}
+.titulo
+{
+    color: darkgoldenrod;
+    width: 100%;
+    background: rgba(9, 2, 4, 0.91);
+    padding: 10px;
+    padding-right: 35px;
+    border:none;
+    text-align: center;
+}
+
+
+#ingresar
+{
+    background:#ffffff;
+    color: #000000;
+    display:inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 60px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+        left:35%;
+    top:90%;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+}
+.header-top
+{
+    width: 100%;
+    background: rgba(192, 150, 50, 0.76);
+}
+
+.navegacion {
+    width: 90%;
+    max-width: 1000px ;
+    margin:auto;
+    padding:12px;
+
+}
+
+input [type = "search"]
+{
+    padding: 10px;
+    padding-right: 35px;
+    border:none;
+}
+
+#borrarProducto
+{
+    background:#ffffff;
+    color: #000000;
+    display:inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 80px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+    left:70%;
+    top:10%;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+}
+
+#descrip
+{
+    width: 400px;
+    height:250px;
+}
+
+#foto
+{
+    position: absolute;
+    left: 50%;
+}
+
+
+#GuardarFoto
+{
+    position:absolute;
+    height: 20px;
+}
+
+.contenedor
+{
+    position:absolute;
+    left:20%;
+    bottom: 20%;
+}
