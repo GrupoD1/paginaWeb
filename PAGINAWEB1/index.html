@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Tienda Online</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://file.myfontastic.com/t5tNwfwUapz4yDzK3B6sfe/icons.css" rel="stylesheet">
+<head/>
+<body>
+    <header class="header">
+           
+            <div class = "header-top">
+                <h1 class="logo">Tienda Online</h1>
+                    <label class="buscar">Buscar: </label>
+                        <input  class="textoinput" id="searchFilter" type="text"/>
+                        <button onClick="addNew()">Search</button>
+                           <nav class="nav" id="nav">
+                           <ul class="menu">
+                            <li class="menu__item"><a class="menu__link select" href="">Inicio</a></li>
+                            <li class="menu__item"><a class="menu__link" href="contraseña.html">Administrador</a></li>
+
+                </ul>
+            </nav>
+                <div class = "navegacion"></div>
+            </div>
+        <div class="contenedor">
+            <span class="icon-menu" id="btn-menu"></span>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="IMG/img14.jpg" alt="" class="banner_img">
+        <div class="contenedor">
+            <h2 class="banner__titulo">Perfumeria Dolz</h2>
+            <p class="banner__txt">Melchor Urquidi</p>
+        </div>
+    </div>
+    <main class="main">
+        <div class="contenedor">
+            <section class="info">
+               <article id="prod1" class="info__columna" onClick="openDetails(1);location='detalles.html'">
+                    <img id="prod1-img" src="" alt="" class="info__img">
+                    <h2 id="prod1-title" class="info__titulo"></h2>
+                    <p id="prod1-description" class="info__txt" ></p>
+                </article>
+                <article id="prod2" class="info__columna" onClick="openDetails(2);location='detalles.html'">
+                    <img id="prod2-img" src="" alt="" class="info__img">
+                    <h2 id="prod2-title" class="info__titulo"></h2>
+                    <p id="prod2-description" class="info__txt"></p>
+                </article>
+                <article id="prod3" class="info__columna" onClick="openDetails(3);location='detalles.html'">
+                    <img id="prod3-img" src="" alt="" class="info__img">
+                    <h2 id="prod3-title" class="info__titulo"></h2>
+                    <p id="prod3-description" class="info__txt"></p>
+                </article>
+                <article id="prod4" class="info__columna" onClick="openDetails(4);location='detalles.html'">
+                    <img id="prod4-img" src="" alt="" class="info__img">
+                    <h2 id="prod4-title" class="info__titulo"></h2>
+                    <p id="prod4-description" class="info__txt"></p>
+                </article>
+            </section>
+             <button class="botonA" onClick="prevPage()">Anterior</button>
+            <button class="botonS" onClick="nextPage()">Siguiente</button>
+            <br>
+            <button onClick="addNew()">Add New</button>
+            <section class="cursos">
+                <h2 class="section__titulo">Ofertas</h2>
+                <div class="cursos__columna">
+                    <img src="img/img5.jpg" alt="" class="cursos__img">
+                    <div class="cursos__descripcion">
+                        <h3 class="cursos__titulos">Hombres</h3>
+                        <p class="cursos__txt">Desafio de Eleccion</p>
+                    </div>
+                </div>
+                <div class="cursos__columna">
+                    <img src="img/img6.jpg" alt="" class="cursos__img">
+                    <div class="cursos__descripcion">
+                        <h3 class="cursos__titulos">Mujeres</h3>
+                        <p class="cursos__txt">Desafio de Eleccion</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/perfumeriadolz/?fref=ts" class="icon-facebook"></a>
+            <a href="" class="icon-twitter"></a>
+            <a href="" class="icon-gplus"></a>
+            <a href="" class="icon-vine"></a>
+        </div>
+        <p class="copy"> &copy; Perfumeria Dolz todos los derechos reservados</p>
+    </footer>
+    <script src="js/menu.js"></script>
+<body/>
+<html/>

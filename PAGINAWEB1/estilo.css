@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+{
+    background:beige;
+}
+
+form
+{
+    width: 200px;
+    height: 40px;
+    margin: 100px auto 0;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+
+}
+
+#Usuario
+{
+    background: #ff0000;
+    color: #000000;
+    display:inline-block;
+    font-size: 80px;
+    margin: 40px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 60px;
+    text-decoration:none;
+    box-shadow: 0px 3px 0px #cccccc;
+    position:static;
+    left:35%;
+    top: 90%;
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+    background:#ecf0f1;
+    box-shadow: 0px 3px 0px #7f8c8d;
+    font-family: 'Lucida Grande', Tahoma, Arial, Verdana, sans-serif;
+}
+
+.header-top
+{
+    width: 100%;
+    background: rgba(192, 150, 50, 0.76);
+}
+
+.navegacion {
+    width: 90%;
+    max-width: 1000px ;
+    margin:auto;
+    padding:12px;
+
+}
+
+input [type = "button"]
+{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff0000;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+
+.ir-a:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+.boton {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Lucida Grande', Tahoma, Arial, Verdana, sans-serif;
+    border-radius: 50px; /*bordes redondos*/
+}
+
+
+
+
+
+
+
+
