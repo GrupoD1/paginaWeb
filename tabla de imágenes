@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo del uso de tablas - aprenderaprogramar.com</title>
+    <script type="text/javascript">
+        function popup(url,ancho,alto) {
+            var posicion_x;
+            var posicion_y;
+            posicion_x=(screen.width/2)-(ancho/2);
+            posicion_y=(screen.height/2)-(alto/2);
+            window.open(url, "google.es", "width="+ancho+",height="+alto+",menubar=0,toolbar=0,directories=0,scrollbars=no,resizable=no,left="+posicion_x+",top="+posicion_y+"");
+        }
+    </script>
+</head>
+<body>
+<table border="2px"> <!-- Lo cambiaremos por CSS -->
+    <caption>Título de la tabla</caption>
+    <tr>
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+                <img src="C:\Users\Usuario\Desktop\fotos\f1.jpg" width="116" height="160" alt="IM1" />
+            </a>
+        </td>
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+            <img src="C:\Users\Usuario\Desktop\fotos\f2.jpg" width="116" height="160" alt="IM2" />
+            </a>
+        </td>
+
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+            <img src="C:\Users\Usuario\Desktop\fotos\f3.jpg" width="116" height="160" alt="IM3"/>
+            </a>
+        </td>
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+            <img src="C:\Users\Usuario\Desktop\fotos\f4.jpg" width="116" height="160" alt="IM4"/>
+            </a>
+        </td>
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+            <img src="C:\Users\Usuario\Desktop\fotos\f6.jpg" width="116" height="160" alt="IM5"/>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+                <img src="C:\Users\Usuario\Desktop\fotos\f1.jpg" width="116" height="160" alt="IM6" />
+            </a>
+        </td>
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+                <img src="C:\Users\Usuario\Desktop\fotos\f2.jpg" width="116" height="160" alt="IM7" />
+            </a>
+        </td>
+
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+                <img src="C:\Users\Usuario\Desktop\fotos\f3.jpg" width="116" height="160" alt="IM8"/>
+            </a>
+        </td>
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+                <img src="C:\Users\Usuario\Desktop\fotos\f4.jpg" width="116" height="160" alt="IM9"/>
+            </a>
+        </td>
+        <td>
+            <a href="javascript:popup('popup.html',400,300)">
+                <img src="C:\Users\Usuario\Desktop\fotos\f6.jpg" width="116" height="160" alt="IM10"/>
+            </a>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
