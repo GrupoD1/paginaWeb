@@ -15,23 +15,26 @@
 <form>
     Título: <input type="text" name="titulo" id="titulo"><br >
     Descripción: <input type="text" name="descrip" id="descrip"><br />
+    Categoria: <select id="mySelect">
+    <option value="Hombre" id="Hombre">Hombre</option>
+    <option value="Mujer" id="Mujer">Mujer</option> </select><br>
     Precio: <input type="text" name="Precio" id="precio"><br />
     Cantidad:<input type="text" name="Cantidad" id="cantidad"><br />
     Foto:<input type="text" name="Foto" id="foto"><br />
-    Categoria: <select id="categoria">
-    <option value="Hombre" id="Hombre">Hombre</option>
-    <option value="Mujer" id="Mujer">Mujer</option> </select><br>
 
-    <button id = "ingresar" onclick="anadirNuevo()">
-        Ingresar
-    </button>
+
+
 
 
 
 </form>
+<button id = "ingresar" onclick="anadirNuevo()">
+    Ingresar
+</button>
 <button id = "inicio" onclick="location='index.html'">
     Inicio
 </button>
+<img src="" id="imgprueba">
 <form action="productoNuevo.html" method="post" accept="image/jpg">
     <br />
     <br />

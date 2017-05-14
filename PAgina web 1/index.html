@@ -14,14 +14,14 @@
                     <span class = "icon-search"></span>
                     <input type="text" id="buscador" placeholder = "Buscar..." >
                     <button onclick="buscar()"> Buscar </button>
-                </div>
+                                   </div>
             </div>
-            <form>
-        <select id="categoria" onchange="buscarcategoria()">
-            <option value="Hombre" id="Hombre" >Hombre</option>
-            <option value="Mujer" id="Mujer">Mujer</option>
-        </select>
-    </form>
+        <form>
+            <select id="categoria" onchange="buscarcategoria()">
+                <option value="Hombre" id="Hombre" >Hombre</option>
+                <option value="Mujer" id="Mujer">Mujer</option>
+            </select>
+        </form>
 
         <div class="contenedor">
             <span class="icon-menu" id="btn-menu"></span>
@@ -45,25 +45,33 @@
         <div class="contenedor">
 
             <section class="info">
-                <article id="prod1" class="info__columna" onClick="openDetails(1);location='detalles.html'">
+                <article id="prod1" class="info__columna" onClick="contadorClicks1(), openDetails(1);location='detalles.html'">
                     <img id="prod1-img" src="" alt="" class="info__img">
                     <h2 id="prod1-title" class="info__titulo"></h2>
                     <p id="prod1-description" class="info__txt" ></p>
+                    <p> Numero de visitas: </p>
+                    <input id="contador1" onload="contadorClicks1()"/>
                 </article>
-                <article id="prod2" class="info__columna" onClick="openDetails(2);location='detalles.html'">
+                <article id="prod2" class="info__columna" onClick="contadorClicks2(), openDetails(2);location='detalles.html'">
                     <img id="prod2-img" src="" alt="" class="info__img">
                     <h2 id="prod2-title" class="info__titulo"></h2>
                     <p id="prod2-description" class="info__txt"></p>
+                    <p> Numero de visitas: </p>
+                    <input id="contador2" onload="contadorClicks2()"/>
                 </article>
-                <article id="prod3" class="info__columna" onClick="openDetails(3);location='detalles.html'">
+                <article id="prod3" class="info__columna" onClick="contadorClicks3(),openDetails(3);location='detalles.html', contadorclicks()">
                     <img id="prod3-img" src="" alt="" class="info__img">
                     <h2 id="prod3-title" class="info__titulo"></h2>
                     <p id="prod3-description" class="info__txt"></p>
+                    <p> Numero de visitas: </p>
+                    <input id="contador3" onload="contadorClicks3()"/>
                 </article>
-                <article id="prod4" class="info__columna" onClick="openDetails(4);location='detalles.html'">
+                <article id="prod4" class="info__columna" onClick="contadorClicks4(), openDetails(4);location='detalles.html', contadorclicks()">
                     <img id="prod4-img" src="" alt="" class="info__img">
                     <h2 id="prod4-title" class="info__titulo"></h2>
                     <p id="prod4-description" class="info__txt"></p>
+                    <p> Numero de visitas: </p>
+                    <input id="contador4" onload="contadorClicks4()"/>
                 </article>
             </section>
             <button onClick="prevPage()">Anterior</button>
