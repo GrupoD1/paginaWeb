@@ -123,3 +123,51 @@ function buscarcategoria() {
     }
     mostrar();
 }
+function contadorClicks1(){
+    // Si existe contador se incrementa y sino se inicializa
+    if (localStorage.contador1) {
+        // Se convierte el contador a entero porque por defecto es una cadena
+        localStorage.contador1 = parseInt(localStorage.contador1) + 1;
+    }
+    else {
+        localStorage.contador1 = 1;
+    }
+    document.getElementById("contador1").value = localStorage.contador1;
+}
+
+function contadorClicks2(){
+    // Si existe contador se incrementa y sino se inicializa
+    if (localStorage.contador2) {
+        // Se convierte el contador a entero porque por defecto es una cadena
+        localStorage.contador2 = parseInt(localStorage.contador2) + 1;
+    }
+    else {
+        localStorage.contador2 = 1;
+    }
+    document.getElementById("contador2").value = localStorage.contador2 ;
+}
+
+function contadorClicks3(){
+    // Si existe contador se incrementa y sino se inicializa
+    if (localStorage.contador3) {
+        // Se convierte el contador a entero porque por defecto es una cadena
+        localStorage.contador3 = parseInt(localStorage.contador3) + 1;
+    }
+    else {
+        localStorage.contador3 = 1;
+    }
+    document.getElementById("contador3").value = localStorage.contador3 ;
+}
+
+function contadorClicks4(){
+    // Si existe contador se incrementa y sino se inicializa
+    if (localStorage.contador4) {
+        // Se convierte el contador a entero porque por defecto es una cadena
+        localStorage.contador4 = parseInt(localStorage.contador4) + 1;
+    }
+    else {
+        localStorage.contador4 = 1;
+    }
+    document.getElementById("contador4").value = localStorage.contador4;
+}
+
